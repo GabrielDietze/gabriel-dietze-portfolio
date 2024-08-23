@@ -1,0 +1,102 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 104px;
+}
+
+.theme {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    margin-right: 58px;
+    margin-left: auto;
+}
+
+
+
+.theme > img, .select-theme {
+    margin: 0 10px; /* Adiciona um espaçamento de 10px entre todos os itens */
+}
+
+#dark_mode {
+    width: 28px;
+    height: 28px;
+}
+
+.select-theme {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle-theme {
+    position: absolute;
+    top: 50%;
+    left: 10%; /* Ajuste conforme necessário para o posicionamento desejado */
+    transform: translate(-50%, -50%);
+}
+
+.select-theme img {
+    display: block;
+}
+
+.home-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    position: relative; /* Define o contêiner como referência para posicionamento absoluto */
+    padding: 20px; /* Ajuste conforme necessário */
+    display: inline-block;
+    flex-direction: column; /* Organiza os itens em coluna */
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#font-size p:first-of-type{
+    font-size: 36px;
+    color: #D9D9D9;
+}
+
+#font-size p:last-of-type{
+    font-size: 24px;
+}
+
+.part1-text-home{
+   font-size: 128px;
+}
+
+.part2-text-home{
+    font-size: 232px;
+}
+
+.intro h1{
+ line-height: 0.85;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-home-icons{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.text-description-home{
+    align-self: flex-end;
+    text-align: right;
+}
+
+.title-home{
+    align-self: flex-start;
+    text-align: left;   
+}
