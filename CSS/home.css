@@ -79,17 +79,20 @@ header {
  line-height: 0.85;
 }
 
-.social-icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .container-home-icons{
     display: flex;
     justify-content: left;
     align-items: center;
 }
+
+.social-icons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+}
+
 
 .text-description-home{
     align-self: flex-end;
