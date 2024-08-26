@@ -1,13 +1,11 @@
 .menu-icon{
   width: 3.625rem;
   height: 4rem;/* Fixa a imagem na tela */
-  margin-top: 32px;           
-  margin-left: 58px;     
+  margin-top: 2rem;           
+  margin-left: 3.625rem;     
   position: fixed;
   z-index: 1000;
 }
-
-
 
 .menu-icon img {
   height: auto; /* Mantém a proporção da imagem */

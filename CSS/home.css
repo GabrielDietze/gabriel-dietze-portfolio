@@ -2,26 +2,24 @@ header {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 104px;
+    align-items: center;
 }
 
 .theme {
     display: flex;
     align-items: center;
-    margin-top: 32px;
-    margin-right: 58px;
+    margin-top: 3%;
+    margin-right: 3.625rem;
     margin-left: auto;
 }
 
-
-
 .theme > img, .select-theme {
-    margin: 0 10px; /* Adiciona um espaçamento de 10px entre todos os itens */
+    margin: 0 0.625rem; /* Adiciona um espaçamento de 10px entre todos os itens */
 }
 
 #dark_mode {
-    width: 28px;
-    height: 28px;
+    width: 1.25rem;
+    height: 1.25rem;
 }
 
 .select-theme {
@@ -42,61 +40,67 @@ header {
     display: block;
 }
 
-.home-content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .intro {
-    position: relative; /* Define o contêiner como referência para posicionamento absoluto */
-    padding: 20px; /* Ajuste conforme necessário */
-    display: inline-block;
+    display: flex; /* Mudado para flexbox para centralização mais fácil */
     flex-direction: column; /* Organiza os itens em coluna */
     justify-content: center;
-    align-items: center;
-    
+    margin: 0 18rem;
+    line-height:0.8;
+    height: 100vh;
 }
 
-#font-size p:first-of-type{
-    font-size: 36px;
-    color: #D9D9D9;
+.title-hello{
+    font-size: 2.25rem;
+    color: #D9D9D9;   
+    margin: 0; 
+    text-align: left;
 }
 
-#font-size p:last-of-type{
-    font-size: 24px;
+.description-text{
+    font-size: 1.5rem;
 }
 
-.part1-text-home{
-   font-size: 128px;
-}
-
-.part2-text-home{
-    font-size: 232px;
-}
-
-.intro h1{
- line-height: 0.85;
-}
-
-.container-home-icons{
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
+.container-home-icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+  }
 
 .social-icons{
-    margin-top: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    align-self: flex-start;
+    width: 25%;
+    gap: 1rem;
+    margin-left: 1rem;
 }
 
+.text-home{
+    align-items: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.part1-text-home{
+    font-size: 8rem;
+    margin: 0;
+ }
+ 
+ .part2-text-home{
+     font-size:14.5rem;
+ }
 
 .text-description-home{
     align-self: flex-end;
     text-align: right;
+   
+    margin: 0;
+    line-height: 1;
 }
 
 .title-home{
