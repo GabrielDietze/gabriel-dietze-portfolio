@@ -1,7 +1,7 @@
 .menu-icon{
   width: 3.625rem;
-  height: 4rem;/* Fixa a imagem na tela */
-  margin-top: 2rem;           
+  height: 4rem;
+  margin-top: 2.5rem;           
   margin-left: 3.625rem;     
   position: fixed;
   z-index: 1000;
