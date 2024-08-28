@@ -1,0 +1,43 @@
+.about-me-section {
+    display: flex;
+    padding-top: 3rem;
+  }
+  
+  .profile-image {
+    width: 50%; /* Ajusta a largura da coluna para 50% */
+    display: flex;
+    justify-content: center; /* Centraliza a imagem horizontalmente dentro da coluna */
+    align-items: center; /* Centraliza a imagem verticalmente dentro da coluna */
+  }
+  
+  .profile-image img {
+    width: 35.71rem; /* Define a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+  
+  .about-me-text {
+    padding:0 6rem;
+    text-align: left;
+    width: 50%; /* Ajusta a largura da coluna para 50% */
+  }
+  
+  .about-me-section h1,
+.about-me-section h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+  .about-me-text h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #A3A0A0;
+  }
+
+ .about-me-section h1{
+    color: #D9D9D9;
+    font-size: 4rem;
+    font-weight: 700;
+    
+ }
+ 
+ .about-me-section p{
+   font-size: 1.5rem; 
+ }
