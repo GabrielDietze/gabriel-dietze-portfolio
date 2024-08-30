@@ -3,13 +3,12 @@ header {
     justify-content: space-between;
     width: 100%;
     align-items: center;
-    
 }
 
 .theme {
     display: flex;
     align-items: center;
-    margin-top: 3%;
+    padding-top: 3%;
     margin-right: 3.625rem;
     margin-left: auto;
 }
@@ -47,6 +46,7 @@ header {
     align-items: center;
     height: 100vh;
     gap: 0;
+    
 }
 
 .intro {
@@ -56,7 +56,7 @@ header {
     line-height:0.8;
     height: 100vh;
     gap: 0;    
-    margin: 0 23rem;
+    margin: -3% 23rem;
 }
 
 .title-hello{

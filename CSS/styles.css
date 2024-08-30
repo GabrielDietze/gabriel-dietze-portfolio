@@ -24,6 +24,10 @@ html{
     height: 100vh;
 }
 
+.projects-section{
+    height: 100vh;
+}
+
 .section1{
     background-color: #000;
 }

@@ -4,3 +4,42 @@
     font-size: 4rem;
 }
 
+.skills-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills-icons {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 8rem; 
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill p{
+    font-family: 'montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.skill img{
+   margin: 0;
+   padding: 0;
+}
+
+.html_e_css_img{
+    gap: 0.5rem;
+    display: flex;
+}
