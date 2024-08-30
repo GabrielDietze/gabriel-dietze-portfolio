@@ -1,19 +1,39 @@
 /* Colocar a linha em baixo da palavra */
+.word {
+  position: relative;
+  display: inline-block;
+  margin-right: 1rem;
+  line-height: 1;
+  z-index: 1; /* Texto acima do pseudo-elemento */
+}
 
-.word{
-    position: relative; /* Necessário para posicionar o pseudo-elemento */
-    display: inline-block; /* Faz o span se comportar como um bloco em linha */
-    margin-right: 1rem;
-    line-height: 1; 
-  }
+.word::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.3rem;
+  width: 100%;
+  height: 0.3rem;
+  background-color: #8100E5;
+  border-radius: 1rem;
+  z-index: -1; /* Linha atrás do texto */
+}
 
-  .word::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 0.3rem; /* Espessura da linha */
-    background-color: #8100E5; /* Cor da linha */
-    border-radius: 1rem; /* Arredonda os cantos inferiores */
+
+/* Cor roxa na palavra */
+.word-color-purple{
+    color: #A247EA;
+}
+
+.font-family-montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Cor das seções */
+.section1{
+  background-color: #000;
+}
+
+.section2{
+  background-color: #262626;
 }
