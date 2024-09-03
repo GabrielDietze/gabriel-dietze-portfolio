@@ -25,6 +25,10 @@
     color: #A247EA;
 }
 
+.word-color-darkpurple{
+    color: #6100AD;
+}
+
 .font-family-montserrat{
   font-family: 'Montserrat', sans-serif;
 }
@@ -36,4 +40,9 @@
 
 .section2{
   background-color: #262626;
+}
+
+.send-me-email{
+  background-color: #8100E5;
+  height: 40vh;
 }
