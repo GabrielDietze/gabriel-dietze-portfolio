@@ -116,7 +116,7 @@
 }
 
 .color-button-project-1:hover{
-    transform: scale(0.95);
+    transform: scale(1.05);
     color: white;
     background-color: #8100E5;
 }
@@ -128,7 +128,7 @@
 }
 
 .color-button-project-2:hover{
-    transform: scale(0.95);
+    transform: scale(1.05);
     color: white;
     background-color: black;
 }
