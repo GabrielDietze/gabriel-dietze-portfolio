@@ -7,8 +7,9 @@
 .projects-section h1{
     padding-top: 4rem;
     margin: 0;
-    font-size: 3rem;
+    font-size: 4rem;
     z-index: 1;
+    margin-bottom: 2rem;
 }
 
 .title-prolinx{
@@ -57,20 +58,20 @@
     flex-direction: row;
     gap: 7.125rem;
     padding-top: 6rem;
+    align-items: center;
 }
 
 .img-project-description1{
-    width: 40%;
-    height: auto;
+    width: 45%;
+    height: 20rem;
     border-radius: 1rem;
     margin-left: 3rem;
 }
 
 .img-project-description2{
-    width: 50%;
-    height: auto;
+    width: 45%;
+    height: 20rem;
     border-radius: 1rem;
-
 }
 
 .description-project{
@@ -114,7 +115,7 @@
     transition: all 0.4s ease-in-out;
     margin-top: 2rem;
     background-color: white;
-    padding: 0.8rem 1rem;
+    padding: 1rem 2rem;
     border: none;
     font-size: 1rem;
     margin-top: 5rem;

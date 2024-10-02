@@ -49,10 +49,16 @@
  .icons-about-me{
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1.5rem;
  }
 
  .icons-about-me img{
   margin-top: 1.5rem;
-  width: 90%;
+  width: 70%;
+  transition: 0.3s;
  }
+
+  .icons-about-me img:hover{
+    transform: scale(1.1);
+  
+  }
