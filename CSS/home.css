@@ -66,6 +66,7 @@ header {
 .container-home-icons {
     display: flex;
     flex-wrap:nowrap; /* Permite que os itens "quebrem" em uma nova linha */
+    margin-bottom: 1rem;
 }
 
 .social-icons{
@@ -88,7 +89,7 @@ header {
 
 
 .part1-text-home{
-    font-size: 8rem;
+    font-size: 7rem;
     margin: 0;
     z-index: 0;
     margin-bottom: 1%;
@@ -97,7 +98,7 @@ header {
  .part2-text-home{
     text-align: left;
     width: 100%;
-    font-size:14.5rem;
+    font-size:13rem;
     margin: 0;
     z-index: 0;
  }
@@ -113,7 +114,6 @@ header {
 }
 
 .title-home{
-   
     width: 100%;
     align-self: flex-start;
     text-align: left;

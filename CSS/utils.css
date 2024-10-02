@@ -25,6 +25,10 @@
     color: #A247EA;
 }
 
+.word-color-red{
+  color: rgb(245, 76, 70);
+}
+
 .word-color-darkpurple{
     color: #6100AD;
 }
@@ -44,5 +48,27 @@
 
 .send-me-email{
   background-color: #8100E5;
-  height: 40vh;  
+  height: 50vh;  
+}
+
+.gradient-black-gray {
+  position: absolute; /* Permite que o gradiente seja posicionado em relação ao body */
+    bottom: 0; /* Alinha na parte inferior */
+    width: 100%;
+  height: 3rem; /* Altura do gradiente */
+  background: linear-gradient(to bottom, #000000, #262626); /* Gradiente da esquerda para a direita */
+}
+
+.gradient-gray-black {  
+    bottom: 0; /* Alinha na parte inferior */
+    width: 100%;
+  height: 3rem; /* Altura do gradiente */
+  background: linear-gradient(to bottom, #262626, #000000); /* Gradiente da esquerda para a direita */
+}
+
+.gradient-black-purple{  
+  bottom: 0; /* Alinha na parte inferior */
+  width: 100%;
+height: 3rem; /* Altura do gradiente */
+background: linear-gradient(to bottom, #000000,#5E00B8, #8100E5); /* Gradiente da esquerda para a direita */
 }

@@ -11,7 +11,7 @@
     z-index: 1;
 }
 
-.title-content-project h2{
+.title-prolinx{
     font-size: 2rem;
     margin-bottom: 0.6rem;
 }
@@ -39,8 +39,7 @@
 }
 
 .project-2{
-    background-color: #ffffff;
-    color: black;
+    background-color: #262626;
     margin-bottom:5rem ;
 }
 
@@ -60,13 +59,22 @@
     padding-top: 6rem;
 }
 
-.img-project-description{
+.img-project-description1{
+    width: 40%;
+    height: auto;
+    border-radius: 1rem;
+    margin-left: 3rem;
+}
+
+.img-project-description2{
     width: 50%;
+    height: auto;
+    border-radius: 1rem;
+
 }
 
 .description-project{
     width: 50%;
-    
 }
 
 .description-project p{
@@ -109,10 +117,35 @@
     padding: 0.8rem 1rem;
     border: none;
     font-size: 1rem;
+    margin-top: 5rem;
 }
 
+.color-button-project-2{
+    color: white;  
+    background-color: BLACK;
+}
+
+.color-button-project-2:hover{
+    transform: scale(1.05);
+    color: white;
+    background-color: RED;
+}
+
+.color-button-project-3{
+    color: black;
+    background-color: white;
+}
+
+.color-button-project-3:hover{
+    transform: scale(1.05);
+    color: white;
+    background-color: RED;
+}
+
+
 .color-button-project-1{
-    color: #6100AD;
+    background-color: black;
+    color: white;
 }
 
 .color-button-project-1:hover{
@@ -121,14 +154,16 @@
     background-color: #8100E5;
 }
 
-
-.color-button-project-2{
-    background-color: #8100E5;
-    color: white;
+.title-verzelflix{
+    color: red;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: normal;
+    font-size: 3rem;
 }
 
-.color-button-project-2:hover{
-    transform: scale(1.05);
-    color: white;
-    background-color: black;
+.container-button-project {
+    display: flex; /* Ativa o Flexbox */
+    justify-content: center; /* Alinha os botões ao centro (opcional) */
+    gap: 1rem; /* Adiciona espaçamento entre os botões */
 }
