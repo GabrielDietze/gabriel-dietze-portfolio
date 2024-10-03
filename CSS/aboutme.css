@@ -62,3 +62,35 @@
     transform: scale(1.1);
   
   }
+
+  @media (max-width: 768px) {
+    .about-me-section {
+      flex-direction: column;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+  
+    .profile-image {
+      width: 100%;
+    }
+  
+    .about-me-text {
+      width: 90%;
+      padding: 0 2rem;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .profile-image img{
+      display: none;
+    }
+    .about-me-text h1{
+      font-size: 2.5rem;
+    }
+    .about-me-text p{
+      font-size: 1.2rem;
+    }
+    .icons-about-me img{
+      width: 50%;
+    }
+  }

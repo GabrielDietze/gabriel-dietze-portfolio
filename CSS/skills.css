@@ -44,3 +44,52 @@
     gap: 0.5rem;
     display: flex;
 }
+
+@media (max-width: 820px) {
+    .skills-icons {
+        gap: 5rem;
+    }
+    
+    .skill p{
+        font-size: 1.2rem;
+    }
+    
+    .skill img{
+        width: 4rem;
+    }
+    .skills-section h2{
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width:630px){
+    .skills-icons {
+        gap: 3rem;
+    }
+}
+
+@media (max-width:500px){
+    .skills-icons {
+        gap: 2rem;
+    }
+    
+    .skill p{
+        font-size: 1rem;
+    }
+    
+    .skill img{
+        width: 3rem;
+    }
+}
+
+@media (max-width:372px){
+    .skills-icons {
+        gap: 1rem;
+    }
+}
+
+@media (max-width:320px){
+    .skills-icons{
+        flex-direction: column;
+    }
+}
