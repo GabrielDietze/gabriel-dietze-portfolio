@@ -191,6 +191,11 @@
     height: 18rem;
     margin-left: 2rem;
 }
+.img-project-description2{
+    width: 40%;
+    height: 15rem;
+    margin-left: 2rem;
+}
 }
 
 @media (max-width:690px){
@@ -202,6 +207,15 @@
     }
     .description-project{
         width: 70%;
+    }
+    .img-project-description1{
+        height: 13rem;
+    }
+    .img-project-description2{
+        height: 13rem;
+    }
+    .projects-section h1{
+        font-size: 3rem;
     }
 }
 
@@ -218,6 +232,7 @@
     }
     .img-project-description1{
        display: none;
+    
     }
     .img-project-description2{
         display: none;
